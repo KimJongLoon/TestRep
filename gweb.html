@@ -17,17 +17,17 @@
 
 		<div id="nav">
 			<ul class="nav_list">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
 		</div>
 
 		<div id="main" class="section">
 			
 			<div id="left" class="cell">
-				<p></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 
 			<div id="right" class="cell">
@@ -38,45 +38,62 @@
 	</div>
 
 	<style>
-		.container {
-			/*width: 1200px;
-			height:800px;*/
-			color:black;
+
+		body {
 			background-color: pink;
 		}
 
-		.main {
-			width: 1200px;
+		.container {
+			width: 1920px;
 			height:800px;
-			float: center;
+			color:black;
+			/*background-color: pink;*/
+		}
+
+		.main {
+			width: 800px;
+			height:800px;
+			float:right;
+			background-color: aqua;
+			overflow: nowrap;
+			clear: both;
+
 		}
 
 		.banner {
 			width:600px;
 			height:100px;
 			float:center;
-			color: blue;
+			text-align: center;
+			color: white;
 			background-color:red;
 		}
 
 		#nav {
 			width: 100px;
 			height: 400px;
+			position: absolute;
 			float: left;
 			color: yellow;
 			background-color: red;
 		}
 
-		#nav_list {
+		.nav_list {
 			text-align:center;
-			list-style-type: none;
+			list-style: none;
+		}
+
+		.nav_list a {
 			text-decoration: none;
+			text-decoration-color: yellow;
 		}
 
 		.cell {
 			height: 600px;
 			width: 600px;
-			background-color: white;
+			position: static;
+			background-color: grey;
+			margin:auto;
 		}
 
 		#left {
